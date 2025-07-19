@@ -4,6 +4,10 @@
 
 Una libreria di componenti React completa, temizzabile e responsiva, progettata per creare interfacce utente di alta qualità. Questa libreria è costruita con una forte enfasi sulla documentazione chiara e sulla componibilità, rendendola facile da usare sia per gli sviluppatori umani che per gli assistenti AI (LLM).
 
+<p align="center">
+  <a href="https://tailwind-componentlibrary.netlify.app/" target="_blank"><strong>Guarda la Live Demo »</strong></a>
+</p>
+
 ## Principi Fondamentali
 
 - **Componibilità**: I componenti sono progettati per essere piccoli e componibili, permettendo di costruire UI complesse combinando blocchi semplici.
