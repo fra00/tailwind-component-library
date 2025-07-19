@@ -9,7 +9,7 @@ Una libreria di componenti React completa, temizzabile e responsiva, progettata 
 - **Componibilità**: I componenti sono progettati per essere piccoli e componibili, permettendo di costruire UI complesse combinando blocchi semplici.
 - **Temizzazione (Theming)**: Pieno supporto per temi chiaro e scuro pronti all'uso, gestiti tramite variabili CSS per una facile personalizzazione.
 - **Responsività**: Un approccio mobile-first assicura che i componenti si adattino perfettamente a tutte le dimensioni dello schermo.
-- **Documentazione Ottimizzata per LLM**: Ogni componente è auto-documentato con commenti JSDoc ed esempi `@example`, rendendo semplice per gli assistenti di codifica AI comprendere e utilizzare la libreria in modo efficace.
+- **Documentazione Ottimizzata per LLM**: Ogni componente è auto-documentato con commenti JSDoc ed esempi `@example`. Per una guida dettagliata su come la documentazione è strutturata per gli assistenti AI, consulta il nostro file di Guida alla Documentazione.
 
 ## Caratteristiche
 
@@ -21,14 +21,6 @@ Una libreria di componenti React completa, temizzabile e responsiva, progettata 
 ---
 
 ## Guida Rapida
-
-### Installazione
-
-Per utilizzare questa libreria in un altro progetto, dopo averla pubblicata su un registro (es. npm), puoi installarla con:
-
-```bash
-npm install nome-della-tua-libreria
-```
 
 ### Utilizzo
 
