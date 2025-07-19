@@ -37,7 +37,7 @@ const TabsContext = createContext(null);
  * @example
  * // Esempio con la seconda tab attiva di default.
  * <Tabs defaultIndex={1}>
- *   {/* ...stessi TabList e TabPanels... */}
+ *   { ...stessi TabList e TabPanels... }
  * </Tabs>
  */
 export const Tabs = ({ children, defaultIndex = 0 }) => {
