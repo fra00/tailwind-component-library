@@ -43,6 +43,8 @@ const Drawer = ({
     "drawer-panel",
     `drawer-panel-${position}`,
     isOpen ? `drawer-panel-open` : "",
+    // Aggiungiamo le classi flex per permettere ai figli di espandersi in altezza.
+    "flex flex-col",
     className,
   ].filter(Boolean).join(" ");
 

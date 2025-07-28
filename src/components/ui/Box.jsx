@@ -11,14 +11,16 @@ import "./Box.css";
  * @param {React.ReactNode} props.children - Il contenuto da renderizzare all'interno del box.
  * @param {string} [props.className=''] - Classi CSS aggiuntive da applicare al contenitore.
  */
-const Box = ({ as: Component = 'div', children, className = '', ...rest }) => {
+const Box = React.forwardRef(({ as: Component = 'div', children, className = '', ...rest }, ref) => {
   const classNames = ["box", className].filter(Boolean).join(" ");
   return (
-    <Component className={classNames} {...rest}>
+    <Component ref={ref} className={classNames} {...rest}>
       {children}
     </Component>
   );
-};
+});
+
+Box.displayName = 'Box'; // Facilita il debug con React DevTools
 
 Box.propTypes = {
   as: PropTypes.elementType,
