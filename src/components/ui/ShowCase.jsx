@@ -30,6 +30,7 @@ import ExampleAlert from "./example/ExampleAlert";
 import ExampleProgressBar from "./example/ExampleProgressBar";
 import ExampleSpinner from "./example/ExampleSpinner";
 import ExampleTooltip from "./example/ExampleTooltip";
+import ExampleToast from "./example/ExampleToast";
 
 // Examples: Visualizzazione Dati
 import ExampleAvatar from "./example/ExampleAvatar";
@@ -82,6 +83,7 @@ function ShowCase() {
             <ExampleSpinner />
             <ExampleTooltip />
             <ExampleProgressBar />
+            <ExampleToast />
           </TabPanel>
           <TabPanel>
             <ExampleAvatar />

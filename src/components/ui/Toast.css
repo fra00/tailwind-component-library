@@ -1,0 +1,63 @@
+.toast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  font-size: 0.9em;
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
+}
+
+.toast-content {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.toast-close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: inherit;
+  opacity: 0.7;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  margin-left: 1rem;
+}
+
+.toast-close-button:hover {
+  opacity: 1;
+}
+
+/*
+  Le varianti di colore riutilizzano le variabili definite per il componente Alert
+  per mantenere la coerenza visiva del tema.
+*/
+.toast-info {
+  color: var(--alert-info-text);
+  background-color: var(--alert-info-bg);
+  border-color: var(--alert-info-border);
+}
+
+.toast-success {
+  color: var(--alert-success-text);
+  background-color: var(--alert-success-bg);
+  border-color: var(--alert-success-border);
+}
+
+.toast-warning {
+  color: var(--alert-warning-text);
+  background-color: var(--alert-warning-bg);
+  border-color: var(--alert-warning-border);
+}
+
+.toast-danger {
+  color: var(--alert-danger-text);
+  background-color: var(--alert-danger-bg);
+  border-color: var(--alert-danger-border);
+}
